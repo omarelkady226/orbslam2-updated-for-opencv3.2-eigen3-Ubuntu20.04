@@ -5,7 +5,7 @@ This code all belongs to orbslam2. I just uploaded the files that need changing 
 
 I used Pangolin v0.5, OpenCV3.2 and the newest version of Eigen3 as of June 2022. This was all tested on Ubuntu 20.04.
 
-#Instructions
+# Instructions
 
 After cloning orbslam2 into any folder on your Linux device change the include, examples and src folders with the ones provided in the library. Next, change the CMakeLists.txt in the orbslam2 folder with the one provided.
 
