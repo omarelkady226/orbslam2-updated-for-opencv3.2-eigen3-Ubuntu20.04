@@ -12,4 +12,4 @@ After cloning orbslam2 into any folder on your Linux device change the include, 
 Then go to /Thirdparty/g20/g20/solvers and change linear_solver_eigen.h with the one provided.
 Finally change the CMakeLists.txt in Thirdparty/DBoW2 with the one provided. Note that you have to remove DBoW2_ from the name of the file provided so that it is just CMakeLists.
 
-If any errors arise it will probably be due to the opencv3.2 path that I provided on my system. If that is the case, go to the files that show the error and find the line that starts with "FindPackage(OpenCV3.2 "<file path>") and change the file path to the opencv build path
+If any errors arise it will probably be due to the opencv3.2 path that I provided on my system. If that is the case, go to the files that show the error and find the line that starts with "FindPackage(OpenCV3.2 " < file path > ") and change the file path to the opencv build path
