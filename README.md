@@ -7,7 +7,7 @@ I used Pangolin v0.5, OpenCV3.2 and the newest version of Eigen3 as of June 2022
 
 # Instructions
 
-After cloning orbslam2 into any folder on your Linux device change the include, examples and src folders with the ones provided in the library. Next, change the CMakeLists.txt in the orbslam2 folder with the one provided.
+After cloning orbslam2 into any folder on your Linux device change the include, examples and src folders with the ones provided here. Next, change the CMakeLists.txt in the orbslam2 folder with the one provided.
 
 Then go to /Thirdparty/g20/g20/solvers and change linear_solver_eigen.h with the one provided.
 Finally change the CMakeLists.txt in Thirdparty/DBoW2 with the one provided. Note that you have to remove DBoW2_ from the name of the file provided so that it is just CMakeLists.
